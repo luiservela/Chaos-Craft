@@ -1,11 +1,11 @@
 [package]
-authors = ["Ross Hill"]
+authors = ["LEW"]
 categories = ["wasm"]
 description = "Generates Mandelbrot set images"
 name = "mandelbrot"
 readme = "../README.md"
-repository = "https://github.com/rosslh/Mandelbrot.site"
-edition = "2018"
+repository = "https://github.com/luiservela/Chaos-Craft"
+edition = "2024"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

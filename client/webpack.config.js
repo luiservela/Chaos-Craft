@@ -70,7 +70,7 @@ const appConfig = {
     extensions: [".ts", ".js"],
   },
   output: { path: dist, filename: "app.js" },
-  experiments: { syncWebAssembly: true },
+  experiments: { asyncWebAssembly: true },
   devtool: "source-map",
 };
 
@@ -117,7 +117,7 @@ const workerConfig = {
     extensions: [".ts", ".js", ".wasm"],
   },
   output: { path: dist, filename: "worker.js" },
-  experiments: { syncWebAssembly: true },
+  experiments: { asyncWebAssembly: true },
   devtool: "source-map",
 };
 
