@@ -1,7 +1,7 @@
 {
-  "author": "Ross Hill <ross@rosshill.ca>",
-  "name": "mandelbrot.site",
-  "repository": "https://github.com/rosslh/mandelbrot.site",
+  "author": "LEWl <vela.vela.luis@protonmail.com>",
+  "name": "Chaos-Craft",
+  "repository": "https://github.com/luiservela/Chaos-Craft",
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production || webpack --mode production",
