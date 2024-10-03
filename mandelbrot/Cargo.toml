@@ -5,7 +5,7 @@ description = "Generates Mandelbrot set images"
 name = "mandelbrot"
 readme = "../README.md"
 repository = "https://github.com/luiservela/Chaos-Craft"
-edition = "2024"
+edition = "2018"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
