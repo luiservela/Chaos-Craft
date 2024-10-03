@@ -4,7 +4,7 @@
   "repository": "https://github.com/luiservela/Chaos-Craft",
   "license": "MIT",
   "scripts": {
-    "prebuild": "curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh && cd ../mandelbrot && wasm-pack build --target web",
+    "prebuild": "cd ../mandelbrot && wasm-pack build --target web",
     "build": "webpack --mode production || webpack --mode production",
     "dev": "webpack-dev-server --mode development --open --port 9090",
     "serve": "npx http-server dist -p 9090",
