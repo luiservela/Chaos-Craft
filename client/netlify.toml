@@ -4,6 +4,7 @@
 
 [build.environment]
   NODE_VERSION = "18.19.0"
+  RUSTUP_TOOLCHAIN = "stable"
 
 [[redirects]]
   from = "/*"
