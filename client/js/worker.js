@@ -1,6 +1,6 @@
 import { expose } from "threads/worker";
 
-import("../../mandelbrot/pkg").then((wasm) => {
+import("../pkg/index.js").then((wasm) => {
   wasm.init();
 
   const getTile = (params) =>
