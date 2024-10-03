@@ -14,5 +14,7 @@
     { "src": "/.*", "dest": "/client/dist/index.html" }
   ],
   "buildCommand": "cd client && npm ci && npm run build",
+  "devCommand": "cd client && npm run dev",
+  "installCommand": "cd client && npm ci",
   "outputDirectory": "client/dist"
 }
